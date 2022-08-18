@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'user'], function(){
+    Route::get('/', 'UserController@index')->name('userList');
+
+    Route::get('/{index}', 'UserController@getValue');
+});
+
+// Route::get('/welcome', 'PageController@home');
+Route::get('/home', 'PageController@home');
+Route::get('/about', 'PageController@about');
+

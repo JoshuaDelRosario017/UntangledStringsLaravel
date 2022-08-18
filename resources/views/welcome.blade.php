@@ -26,7 +26,7 @@
 			<!-- collapse on toggle button click -->
 			<div class="collapse">
 				<ul class="navbar-nav">
-					<a href="./index.html" class="nav-link">Home</a>
+					<a href="./views/welcome" class="nav-link">Home</a>
 					<a href="#" class="nav-link">Blog</a>
 					<a href="#" class="nav-link">Categories</a>
 					<a href="./index.html" class="nav-link">About</a>
